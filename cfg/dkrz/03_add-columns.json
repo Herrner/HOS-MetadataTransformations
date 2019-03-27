@@ -292,7 +292,7 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column collection at index 1 based on column id using expression grel:\"Deutsches Klimarechenzentrum\"",
+    "description": "Create column internal_collectionId at index 1 based on column id using expression grel:\"dkrz\"",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -320,7 +320,40 @@
     "newColumnName": "collection",
     "columnInsertIndex": 1,
     "baseColumnName": "id",
-    "expression": "grel:\"Deutsches Klimarechenzentrum\"",
+    "expression": "grel:\"dkrz\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column internal_collectionDetails at index 1 based on column id using expression grel:\"\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
+    "newColumnName": "collection",
+    "columnInsertIndex": 1,
+    "baseColumnName": "id",
+    "expression": "grel:\"\"",
     "onError": "set-to-blank"
   },
   {

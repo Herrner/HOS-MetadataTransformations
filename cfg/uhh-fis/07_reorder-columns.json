@@ -42,11 +42,15 @@
       "identifierType",
       "alternateIdentifier",
       "alternateIdentifierType",
+      "format",
       "rights",
       "rightsOA",
       "rightsURI",
       "url",
-      "collection"
+      "internal_collectionId",
+      "internal_collectionDetails",
+      "internal_keywords",
+      "internal_mapPoint"
     ]
   }
 ]

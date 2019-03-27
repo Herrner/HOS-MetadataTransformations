@@ -55,13 +55,13 @@
       "stored":true
     },
     {
-      "name":"collection",
+      "name":"internal_collectionId",
       "type":"string",
       "indexed":true,
       "stored":true
     },
     {
-      "name":"collectionId",
+      "name":"internal_collectionDetails",
       "type":"string",
       "indexed":true,
       "stored":false
@@ -161,7 +161,19 @@
       "stored":true
     },
     {
+      "name":"internal_keywords",
+      "type":"string",
+      "indexed":true,
+      "stored":true
+    },    
+    {
       "name":"language",
+      "type":"string",
+      "indexed":true,
+      "stored":true
+    },
+    {
+      "name":"internal_mapPoint",
       "type":"string",
       "indexed":true,
       "stored":true
