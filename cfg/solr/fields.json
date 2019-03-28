@@ -174,9 +174,10 @@
     },
     {
       "name":"internal_mapPoint",
-      "type":"string",
+      "type":"solr.LatLonPointSpatialField",
       "indexed":true,
-      "stored":true
+      "stored":true,
+      "docValues":true
     },
     {
       "name":"methods",
