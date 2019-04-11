@@ -1,12 +1,12 @@
 [
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -21,12 +21,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -41,12 +41,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -61,12 +61,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -81,12 +81,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -101,12 +101,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -121,12 +121,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -141,12 +141,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -161,12 +161,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -181,12 +181,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -201,12 +201,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -221,12 +221,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -241,12 +241,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -261,12 +261,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -281,12 +281,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -301,12 +301,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -321,12 +321,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -341,12 +341,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -361,12 +361,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -381,12 +381,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -401,12 +401,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -421,12 +421,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
@@ -441,12 +441,12 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column geoLocationPoint",
+    "description": "Mass edit cells in column internal_mapPoint",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "columnName": "geoLocationPoint",
+    "columnName": "internal_mapPoint",
     "expression": "value",
     "edits": [
       {
