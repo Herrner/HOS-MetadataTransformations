@@ -174,7 +174,7 @@
     },
     {
       "name":"internal_mapPoint",
-      "type":"solr.LatLonPointSpatialField",
+      "type":"LatLonPointSpatialField",
       "indexed":true,
       "stored":true,
       "docValues":true
