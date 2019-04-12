@@ -4,8 +4,6 @@ alternateIdentifier,string,x,x,x,11.03,,
 alternateIdentifierType,string,x,x,x,11.04,,
 alternativeTitle,text_general,x,x,x,02.07,,
 alternativeTitleLang,string,x,x,x,,02.08,
-collection,string,-,x,x,15.01,-,describes the source of the metadata
-collectionId,string,-,-,x,15.02,-,code name of the technical source of the metadata
 contributorName,string,x,x,x,03.01,,
 contributorType,string,x,x,x,03.02,,
 creatorName,text_general,x,x,x,01.01,,
@@ -20,6 +18,11 @@ id,string,-,x,x,00.01,-,copy of identifier (without slashes)
 identifier,string,-,x,x,11.01,,
 identifierType,string,-,x,x,11.02,,
 institute,string,x,x,x,07.03,,
+internal_collectionDetails,string,-,-,x,15.02,-,code name of the technical subsource of the metadata
+internal_collectionId,string,-,-,x,15.02,-,code name of the technical source of the metadata
+internal_ddcComplete_facet,string,x,x,x,15.02,-,ddc hundreds and tens and ones numerical
+internal_keywords,string,x,x,x,15.02,-,subjects and title keywords
+internal_mapPoint,location,-,x,x,15.02,-,map coordinates of the publishing organizations
 language,string,-,x,x,04.01,,
 methods,text_general,-,x,x,09.02,description with descriptionType methods,
 otherDescription,text_general,x,x,x,09.03,"description with descriptionType ""Other""",

@@ -55,18 +55,6 @@
       "stored":true
     },
     {
-      "name":"internal_collectionId",
-      "type":"string",
-      "indexed":true,
-      "stored":true
-    },
-    {
-      "name":"internal_collectionDetails",
-      "type":"string",
-      "indexed":true,
-      "stored":false
-    },
-    {
       "name":"contributorName",
       "type":"text_general",
       "multiValued":true,
@@ -94,7 +82,6 @@
       "indexed":true,
       "stored":true
     },
- 
     {
       "name":"creatorNameURI",
       "type":"string",
@@ -161,23 +148,42 @@
       "stored":true
     },
     {
-      "name":"internal_keywords",
+      "name":"internal_collectionDetails",
       "type":"string",
       "indexed":true,
-      "stored":true
-    },    
+      "stored":false
+    },
     {
-      "name":"language",
+      "name":"internal_collectionId",
       "type":"string",
       "indexed":true,
       "stored":true
     },
     {
-      "name":"internal_mapPoint",
-      "type":"LatLonPointSpatialField",
+      "name":"internal_ddcComplete_facet",
+      "type":"string",
+      "multiValued":true,
       "indexed":true,
-      "stored":true,
-      "docValues":true
+      "stored":true
+    },
+    {
+      "name":"internal_keywords",
+      "type":"string",
+      "multiValued":true,
+      "indexed":true,
+      "stored":true
+    },    
+    {
+      "name":"internal_mapPoint",
+      "type":"location",
+      "indexed":true,
+      "stored":true
+    },
+    {
+      "name":"language",
+      "type":"string",
+      "indexed":true,
+      "stored":true
     },
     {
       "name":"methods",
@@ -290,13 +296,6 @@
       "stored":true
     },
     {
-      "name":"internal_ddcComplete",
-      "type":"string",
-      "multiValued":true,
-      "indexed":true,
-      "stored":true
-    },
-    {
       "name":"subtitle",
       "type":"text_general",
       "multiValued":true,
@@ -312,6 +311,13 @@
     },
     {
       "name":"tableOfContents",
+      "type":"text_general",
+      "multiValued":true,
+      "indexed":true,
+      "stored":true
+    },
+    {
+      "name":"technicalInfo",
       "type":"text_general",
       "indexed":true,
       "stored":true
