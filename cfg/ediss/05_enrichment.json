@@ -1,23 +1,16 @@
 [
   {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column internal_mapPoint",
+    "op": "core/text-transform",
     "engineConfig": {
-      "mode": "record-based",
-      "facets": []
+      "facets": [],
+      "mode": "record-based"
     },
     "columnName": "internal_mapPoint",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Hochschule für Bildende Künste Hamburg"
-        ],
-        "to": "53.567562,10.031269"
-      }
-    ]
+    "expression": "grel:if(value.contains(\"Hochschule für Bildende Künste\"),\"53.567562,10.031269\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column internal_mapPoint using expression grel:if(value.contains(\"Hochschule für Bildende Künste\"),\"53.567441,10.031535\",value)"
   },
   {
     "op": "core/mass-edit",
