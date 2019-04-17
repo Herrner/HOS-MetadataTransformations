@@ -33,6 +33,38 @@
   },
   {
     "op": "core/column-addition",
+    "description": "Create column internal_ddcComplete_facet at index 3 based on column Record - header - setSpec using expression grel:value.replace(\"ddc:\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "invert": false,
+          "caseSensitive": false,
+          "query": "ddc:",
+          "name": "Record - header - setSpec",
+          "type": "text",
+          "columnName": "Record - header - setSpec"
+        },
+        {
+          "mode": "text",
+          "invert": true,
+          "caseSensitive": false,
+          "query": "no",
+          "name": "Record - header - setSpec",
+          "type": "text",
+          "columnName": "Record - header - setSpec"
+        }
+      ]
+    },
+    "newColumnName": "internal_ddcComplete_facet",
+    "columnInsertIndex": 3,
+    "baseColumnName": "Record - header - setSpec",
+    "expression": "grel:value.replace(\"ddc:\",\"\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
     "description": "Create column university at index 9 based on column dc:publisher using expression grel:value",
     "engineConfig": {
       "mode": "row-based",
@@ -151,12 +183,12 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column geoLocationPoint at index 6 based on column publisher using expression grel:value",
+    "description": "Create column internal_mapPoint at index 6 based on column publisher using expression grel:value",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "newColumnName": "geoLocationPoint",
+    "newColumnName": "internal_mapPoint",
     "columnInsertIndex": 6,
     "baseColumnName": "publisher",
     "expression": "grel:value",
@@ -506,7 +538,7 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column collection at index 1 based on column id using expression grel:\"E-Dissertationen Uni Hamburg\"",
+    "description": "Create column internal_collectionDetails at index 1 based on column id using expression grel:\"E-Dissertationen Uni Hamburg\"",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -531,10 +563,49 @@
         }
       ]
     },
-    "newColumnName": "collection",
+    "newColumnName": "internal_collectionDetails",
     "columnInsertIndex": 1,
     "baseColumnName": "id",
-    "expression": "grel:\"Publikationen HAW Hamburg\"",
+    "expression": "grel:\"hawpub\"",
     "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column internal_collectionId at index 1 based on column id using expression grel:\"E-Dissertationen Uni Hamburg\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "id",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "id"
+        }
+      ]
+    },
+    "newColumnName": "internal_collectionId",
+    "columnInsertIndex": 1,
+    "baseColumnName": "id",
+    "expression": "grel:\"\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "dc:title",
+    "newColumnName": "internal_keywords",
+    "description": "Rename column dc:title to internal_keywords"
   }
 ]

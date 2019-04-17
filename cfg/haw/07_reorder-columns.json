@@ -49,6 +49,7 @@
       "url",
       "internal_collectionId",
       "internal_collectionDetails",
+      "internal_ddcComplete_facet",
       "internal_keywords",
       "internal_mapPoint"
     ]
