@@ -317,7 +317,7 @@
         }
       ]
     },
-    "newColumnName": "internal_collectionID",
+    "newColumnName": "internal_collectionId",
     "columnInsertIndex": 1,
     "baseColumnName": "id",
     "expression": "grel:\"dkrz\"",
