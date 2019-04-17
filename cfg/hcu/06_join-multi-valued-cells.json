@@ -89,5 +89,12 @@
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "internal_keywords",
+    "keyColumnName": "id",
+    "separator": "␟",
+    "description": "Join multi-valued cells in column internal_keywords"
   }
 ]

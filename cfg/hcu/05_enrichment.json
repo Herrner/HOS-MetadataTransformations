@@ -1,35 +1,54 @@
 [
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column geoLocationPoint using expression grel:\"53.540253,10.004717\"",
     "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "id",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "id"
-        }
-      ]
+      "facets": [],
+      "mode": "record-based"
     },
-    "columnName": "geoLocationPoint",
-    "expression": "grel:\"53.540253,10.004717\"",
+    "columnName": "internal_mapPoint",
+    "expression": "grel:if(isNonBlank(value),\"53.540253,10.004717\",\"\")",
     "onError": "keep-original",
     "repeat": false,
-    "repeatCount": 10
+    "repeatCount": 10,
+    "description": "Text transform on cells in column internal_mapPoint using expression grel:if(isNonBlank(value),\"53.540253,10.004717\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_ddcComplete_facet",
+    "expression": "grel:if(isNotNull(value.match(/\\d\\d[123456789]/)),value + \"␟\" + value.substring(0,2) + \"0\",value)value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column internal_ddcComplete_facet using expression grel:if(isNotNull(value.match(/\\d\\d[123456789]/)),value + \"␟\" + value.substring(0,2) + \"0\",value)value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_ddcComplete_facet",
+    "expression": "grel:if(isNotNull(value.match(/\\d[123456789]\\d/)),value + \"␟\" + value.substring(0,1) + \"00\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column internal_ddcComplete_facet using expression grel:if(isNotNull(value.match(/\\d[123456789]\\d/)),value + \"␟\" + value.substring(0,1) + \"00\",value)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_ddcComplete_facet",
+    "expression": "grel:if(isNotNull(value.match(/\\d\\d\\d␟\\d[123456789]\\d/)),value + \"␟\" + value.substring(0,1) + \"00\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column internal_ddcComplete_facet using expression grel:if(isNotNull(value.match(/\\d\\d\\d␟\\d[123456789]\\d/)),value + \"␟\" + value.substring(0,1) + \"00\",value)"
   }
 ]
