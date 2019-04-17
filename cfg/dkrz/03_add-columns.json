@@ -317,7 +317,7 @@
         }
       ]
     },
-    "newColumnName": "collection",
+    "newColumnName": "internal_collectionID",
     "columnInsertIndex": 1,
     "baseColumnName": "id",
     "expression": "grel:\"dkrz\"",
@@ -350,7 +350,7 @@
         }
       ]
     },
-    "newColumnName": "collection",
+    "newColumnName": "internal_collectionDetails",
     "columnInsertIndex": 1,
     "baseColumnName": "id",
     "expression": "grel:\"\"",
