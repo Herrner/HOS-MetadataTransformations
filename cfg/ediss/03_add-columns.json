@@ -533,8 +533,8 @@
     "baseColumnName": "subject_ddc",
     "expression": "jython:return value",
     "onError": "set-to-blank",
-    "newColumnName": "internal_ddc_complete",
+    "newColumnName": "internal_ddcComplete_facet",
     "columnInsertIndex": 9,
-    "description": "Create column internal_ddc_complete at index 9 based on column subject_ddc using expression jython:return value"
+    "description": "Create column internal_ddcComplete_facet at index 9 based on column subject_ddc using expression jython:return value"
   }
 ]
